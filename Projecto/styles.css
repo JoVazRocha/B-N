@@ -1,0 +1,48 @@
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 200px;
+}
+
+.card {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    line-height: 0.7;
+    /* 
+    Challenge:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+    background: #015EC5;
+    color: white;
+    
+}
+.card p:nth-of-type(1) {
+  padding-bottom: 15px;
+  border-bottom: 2px solid white;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+a:link, a:visited {
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: yellowgreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
